@@ -1,0 +1,23 @@
+{
+  "name": "reto-6",
+  "version": "1.0.0",
+  "description": "Reto del bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunochan2001/reto-6.git"
+  },
+  "author": "Grupo 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunochan2001/reto-6/issues"
+  },
+  "homepage": "https://github.com/brunochan2001/reto-6#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
