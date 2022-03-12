@@ -1,25 +1,37 @@
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Light.ttf);
+  font-weight: 300;
+}
 
 @font-face {
   font-family: Roobert;
   src: url(../font/Roobert-Regular.ttf);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: Roobert;
   src: url(../font/Roobert-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-SemiBold.ttf);
+  font-weight: 600;
 }
 
 @font-face {
   font-family: Roobert;
   src: url(../font/Roobert-Bold.ttf);
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 @font-face {
   font-family: Roobert;
   src: url(../font/Roobert-Heavy.ttf);
-  font-weight: bold;
+  font-weight: 800;
 }
 
 
@@ -30,7 +42,7 @@
 
 
 * {
-  font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roobert, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -55,3 +67,130 @@ main {
   background-color: var(--background-theme);
 }
 
+.hero {
+  padding: 0 30px 0 30px;
+  margin-top: 3rem; 
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.hero-right {
+
+}
+
+.hero-right__info-container {
+  margin-bottom: 20px;
+}
+
+.hero-info__title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.hero-info__span {
+  color: #dbfd51;
+}
+
+.hero-info__description {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+
+}
+
+.hero-form__container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: .4rem .4rem;
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+.form-container__email {
+  margin: 0;
+  padding: 0;
+}
+
+.form-email__input {
+  font-size: 1em;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  height: 55px;
+  width: 100%;
+}
+
+.form-email__input:focus {
+  outline: 1px solid #30e87a;
+
+}
+
+.form-container__button {
+  margin: 0;
+  padding: 0;
+}
+
+.form-button__button {
+  display: inline-block;
+  height: 55px;
+  width: 100%;
+  padding: .75rem 0;
+  justify-content: center;
+  border: none;
+  background-color:#000;
+  color: #fff;
+}
+
+.form-button__button:hover {
+  background-color:#30e87a;
+  color: #000;
+}
+
+.hero-button__container {
+  display: flex;
+  flex-direction: row;
+  gap: .6rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.hero-button__arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  background:#dbfd51;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hero-button__link-container {
+  margin-top: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: start;
+}
+
+.hero-button__link {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+
+.button-arrow {
+  width: .8rem;
+}
