@@ -195,3 +195,31 @@ main {
 .button-arrow {
   width: .8rem;
 }
+
+
+.brands {
+  background-color: var(--background-theme);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brands-container {
+  margin: 0;
+}
+
+.brands__title {
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.brand-banner__container {
+  display: flex;
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
