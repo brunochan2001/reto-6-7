@@ -223,3 +223,79 @@ main {
   border-width: 1px;
   border-color: rgba(255, 255, 255, 0.3);
 }
+
+@media (min-width: 854px) {
+
+  .hero {
+    position: relative;
+    padding: 100px 50px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 60px;
+    max-width: 1140px;
+    z-index: 1;
+    margin: 0 auto;
+  }
+  .hero-info__title {
+    font-size: 4rem;
+  }
+  
+  .hero-info__description {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-right {
+    width: 50%;
+  }
+  
+  .hero-left {
+    margin-left: 0;
+  }
+
+  .hero-form__container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .form-container__email{
+    width: 70%;
+  }
+
+  .form-email__input {
+    text-align: left;
+    height: 55px;
+  }
+
+  .form-container__button {
+    width: 29%;
+  }
+
+  .brands {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .brands__title {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+  .brands-banner__container {
+    padding: 15px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
