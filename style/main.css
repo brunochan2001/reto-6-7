@@ -226,10 +226,7 @@ main {
 
 .feature {
   padding: 30px 50px 30px 50px;
-  /* padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  padding-right: 30px; */
+  margin: 0 auto;
   max-width: 1140px;
 }
 
@@ -401,4 +398,34 @@ main {
     border-width: 1px;
     border-color: rgba(255, 255, 255, 0.3);
   }
-}
+
+  .feature-info__container {
+      max-width: 1340px;
+      width: 100%;
+  }
+
+  .feature-info__content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .feature-main__content {
+    max-width: 65%;
+  }
+
+  .feature-main__title {
+    font-size: 3.5rem;
+  }
+
+  .feature-main__description {
+    max-width: 85%;
+  }
+
+  .feature-info__container {
+    margin-top: 100px;
+  }
+  
+  .feature-info__content {
+    gap: 113px;
+  }
+ }
