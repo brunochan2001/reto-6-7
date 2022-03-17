@@ -1,4 +1,45 @@
+* {
+  font-family: Roobert, sans-serif;
+}
 .body {
-  background-color: rgba(0, 0, 0, 0.5);
   margin: 0;
+}
+:root {
+  --secondary-theme-color: rgba(255, 255, 255, 0.5);
+  --background-theme: #000;
+}
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roobert;
+  src: url(../font/Roobert-Heavy.ttf);
+  font-weight: 800;
 }
