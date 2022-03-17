@@ -430,4 +430,252 @@ body{
     }
 }
 
+@media (min-width: 480px) {
+    .resources{
+        max-width: 1024px;
+        &__container{
+            padding: 0 3rem;
+            &-resources{
+                &-principal{
+                    &-link{
+                        background-position: bottom;
+                        width: auto;
+                        min-height: 26rem;
+                    }
+                    &-container{
+                        top: 55%;
+                        padding: 0 4rem;
+                    }
+                }
+                &-secundary{
+                    &-link{
+                        display: grid;
+                        grid-template-columns: 1fr 3fr;
+                    }
+                    &-info-img-container{
+                       min-width: 130px;
+                    }
+                }
+            }
+            &-blog{
+                &-title{}
+                &-items{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                &-items-link{
+                    display: grid;
+                    grid-template-rows: 13rem 4rem 1rem;
+                    &-container-img{
+                        overflow: hidden;
+                    }
+                    &-img{
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    .section-standard{
+        padding: 0 2rem;
+        &__container{
+            max-width: 720px;
+            max-height: 265px;
+            &-title{
+                &-input-button{
+                    display: flex;
+                    flex-direction: row;
+                    max-width: 100%;
+                    height: 3rem;
+                }
+                &-input{
+                    padding-right: 60px;
+                }
+                &-button{
+                    padding: 0 1.5rem;
+                }
+            }   
+        } 
+        
+        &__title{
+            font-size: 2rem;
+        }    
+    }
+    
+    .footer{
+        &__container{
+            padding: 0 3rem;
+        }
+        &__section-updates{
+            align-items: center;
+            &-form{
+                flex-direction: row;
+                justify-content: space-between;
+                height: 3.5rem;
+                &-button{
+                    width: 28%;
+                }
+                &-input{
+                    border: none;
+                }
+            
+            }
+        }
+        &__section-nav{
+            &-lista{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            &-lits-title-container{
+                cursor: auto; 
+            }
+            &-sublist{
+                height: auto;
+                cursor: pointer;
+            }
+        }
+        .fas{
+            display: none;
+        }
+        &__section-about{
+            padding-top: 0.8rem;
+        }
+    }
+    .svg{
+        margin-bottom: 1.5rem;
+    }
+}
 
+@media (min-width: 990px) {
+
+    .resources{
+        max-width: 1200px;
+        &__title{
+            font-size: 3rem;
+        }
+        &__principal-title{
+            font-size: 1rem;
+            width: 8rem;
+        }    
+        &__subtitle{
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        &__container{
+            padding: 0;
+            &-resources{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-auto-rows: 180px;
+                row-gap: 0;
+                &-principal{
+                    min-height: 32.5rem;
+                    &-link{
+                        min-height: auto;
+                    }
+                    &-container{
+                        top: 50%;
+                        gap: 1.5rem;
+                    }
+                    &-subtitle{
+                        padding: 0.5rem 0.5rem;
+                        width: 10rem;
+                        font-size: 1.2rem;
+                    }
+                    &-title{
+                        font-size: 2.1rem;
+                    }
+                }
+                &-secundary{
+                    justify-content: center;
+                    &-info-img-container{
+                        min-width: 160px;
+                    }
+                }
+                &-principal:nth-child(1) {
+                    grid-column: span 1;
+                    grid-row: span 3;
+                }
+                &-secundary:nth-child(2) {
+                    grid-row: span 1;
+                }
+                &-secundary:nth-child(3) {
+                    grid-row: span 1;
+                }
+                &-secundary:nth-child(4) {
+                    grid-row: span 1;
+                }
+            }
+            &-blog{
+                &-title{}
+                &-items{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+                &-items-link{
+                    display: grid;
+                    grid-template-rows: 12rem 5.2rem 1rem;
+                    &-container-img{
+                        overflow: hidden;
+                    }
+                    &-img{
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    .section-standard{
+        &__container{
+            max-width: 1200px;
+            min-height: 600px;
+            &-title{
+                max-width: 600px;
+                &-input-button{
+                    display: flex;
+                    flex-direction: row;
+                    max-width: 100%;
+                    height: 3rem;
+                }
+                &-input{
+                    padding-right: 170px;
+                }
+                &-button{
+                    padding: 0 1.5rem;
+                }
+            }  
+            
+        } 
+        &__title{
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0;
+        }  
+    }   
+    .footer{
+        &__container{
+            max-width: 1200px;
+            padding: 0rem 2rem;
+        }
+        &__section-updates{
+            display: flex;
+            flex-direction: row;
+            
+            &-about{
+                font-size: 2rem;
+            }
+            &-form{
+                width: 100%;                
+            }
+        }
+        &__section-nav{
+            &-lista{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                
+            }
+        }  
+        
+    }
+}
