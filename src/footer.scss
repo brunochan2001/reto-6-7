@@ -200,3 +200,64 @@ body{
     }
 }
 
+.section-standard{
+    &__container{
+        display: flex;
+        max-width: 1024px;
+        min-height: 230px;
+        text-align: center;
+        padding: 2.5rem 2rem;
+        margin: auto;
+        align-items: center; 
+        justify-content: center;
+
+        background-image: url(https://assets-global.website-files.com/613a0c11c446a1558ce5db7e/613a0c11c446a1319ce5dc76_Call%20to%20action.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+
+        &-title{
+            display: flex;
+            flex-direction: column;
+            gap: 2.4rem;
+            position: relative;
+            &-input-button{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                max-width: 60%;
+                height: 7.5rem;
+                margin: auto; 
+            }
+            &-input{
+                text-align: center;
+                height: 100%;
+                font-size: 1rem;
+                border: none;
+            }
+            &-button{
+                background-color: $text-color;
+                color: $text-color-inverse;
+                border: none;
+                height: 100%;
+                font-size: 1rem;
+            }
+            &-button:focus{
+                background-color: $inverse-button-color;
+            }
+        }
+    }
+    
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__title{
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 0;
+        
+    }
+}
+
