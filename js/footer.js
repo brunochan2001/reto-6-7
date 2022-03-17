@@ -44,20 +44,7 @@ const documentReady = ( ) => {
                   `;
             }
             resourcesContainerResourcesPrincipal.insertAdjacentHTML('afterend', htmlSecundary);
-/*
-            let infoPrinciaplHtml = "";
-            const InsertPrincipalInfo = () => {
-                infoPrinciaplHtml = `
-                <h1 class="resources__principal-title">${InsightsAndTrends.PrincipalInfo.sectionTitle}</h1>
-                <h2 class="resources__title">${InsightsAndTrends.PrincipalInfo.principalTitle}</h2>
-                <h3 class="resources__subtitle">${InsightsAndTrends.PrincipalInfo.sections.title1}</h3>
-                `;
-                resourcesContainer.insertAdjacentHTML('afterbegin', infoPrinciaplHtml);
-                ;
-            };
-            InsertPrincipalInfo();
-            
-*/   
+
         });
         const {FromTheBlog} = InsightsAndTrends;
         FromTheBlog.forEach(element=> {
