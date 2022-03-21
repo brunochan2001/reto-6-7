@@ -1,5 +1,5 @@
 `use-strict`;
-const Header = {const headerImageMenuopen = document.getElementById(`headerImageMenuopen`);
+const headerImageMenuopen = document.getElementById(`headerImageMenuopen`);
 
 //   Start - Menu Open
 const listMenuOpen = () => {
@@ -22,4 +22,3 @@ const headerScroll = () => {
 
 window.addEventListener(`scroll`, headerScroll);
 //   End - Header Scroll};
-
