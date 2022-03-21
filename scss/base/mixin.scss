@@ -1,0 +1,5 @@
+@mixin d-flex($display-flex, $flex-direction, $gap) {
+  display: $display-fle;
+  flex-direction: $flex-direction;
+  gap: $gap;
+}

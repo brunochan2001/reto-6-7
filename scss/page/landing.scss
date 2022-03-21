@@ -2,15 +2,7 @@
   padding: 80px 30px 50px 30px;
   background-color: #000;
   &-container {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    margin-bottom: 15px;
-  }
-  &-container {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+    @include d-flex(flex, column, 60px);
     margin-bottom: 15px;
   }
   &-right__info-container {
@@ -37,17 +29,13 @@
   }
 
   &-form__container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    @include d-flex(flex, column, 0.5rem);
     padding: 12px;
     background-color: #fff;
     margin-top: 15px;
   }
   &-button__container {
-    display: flex;
-    flex-direction: row;
-    gap: 0.6rem;
+    @include d-flex(flex, row, 0.6rem);
     margin-top: 40px;
     margin-bottom: 10px;
     align-items: center;
@@ -206,9 +194,7 @@
   }
 
   &-info__content {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 30px;
+    @include d-flex(flex, column-reverse, 30px);
     margin-top: 60px;
   }
 
@@ -284,9 +270,7 @@
   }
 
   &-info__content {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 30px;
+    @include d-flex(flex, column-reverse, 30px);
   }
 
   &-main__title {
@@ -323,10 +307,8 @@
   }
 
   &-link__button-container {
-    display: flex;
-    flex-direction: row;
+    @include d-flex(flex, row, 0.8rem);
     margin-top: 20px;
-    gap: 0.8rem;
     align-items: center;
   }
 
@@ -362,8 +344,6 @@
 .resources {
   max-width: 1024px;
   margin: auto;
-  &__container-principal-info {
-  }
   &__principal-title {
     background-color: $text-color-2;
     margin: auto;
@@ -384,17 +364,13 @@
     font-size: 1.4rem;
   }
   &__container {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    @include d-flex(flex, column, 1rem);
     max-width: 100%;
     margin: 3.5rem auto;
     padding: 0 2rem;
 
     &-resources {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+      @include d-flex(flex, column, 1rem);
       margin: auto;
       margin-bottom: 3rem;
       &-principal {
@@ -418,9 +394,7 @@
           position: relative;
           top: 52%;
           padding: 0 1rem;
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
+          @include d-flex(flex, column, 1rem);
         }
         &-subtitle {
           color: $text-color;
@@ -438,9 +412,7 @@
         }
       }
       &-secundary {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
+        @include d-flex(flex, column, 1rem);
         &-link {
           text-decoration: none;
         }
@@ -524,10 +496,8 @@
       }
     }
     &-more {
-      display: flex;
-      flex-direction: row;
+      @include d-flex(flex, row, 0.5rem);
       margin: auto;
-      gap: 0.5rem;
       align-items: center;
       &-img-container {
         margin: 0;
@@ -564,14 +534,10 @@
     background-position: top;
 
     &-title {
-      display: flex;
-      flex-direction: column;
-      gap: 2.4rem;
+      @include d-flex(flex, column, 2.4rem);
       position: relative;
       &-input-button {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
+        @include d-flex(flex, column, 0.5rem);
         max-width: 60%;
         height: 7.5rem;
         margin: auto;
@@ -634,8 +600,6 @@
         }
       }
       &-blog {
-        &-title {
-        }
         &-items {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -686,10 +650,8 @@
   }
 
   .hero-container {
-    display: flex;
-    flex-direction: row;
+    @include d-flex(flex, row, 60px);
     align-items: stretch;
-    gap: 60px;
     max-width: 1140px;
     z-index: 1;
     margin: 0 auto;
@@ -866,8 +828,6 @@
         }
       }
       &-blog {
-        &-title {
-        }
         &-items {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
